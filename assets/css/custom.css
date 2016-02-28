@@ -1,0 +1,23 @@
+.footer{
+	background-color: #0C2340;
+	color: #246ABF;
+	width: 100%;
+	bottom:0;
+	left:0;
+
+}/*this is about footer background*/
+
+.footer_font{
+	font-weight: bold;
+	box-shadow: rgb(32, 88, 157) 0px 3px 0px 0px;
+	color: #246ABF;
+}/*footer headings*/
+
+.footer_font_con{
+	color: #246ABF;
+	
+}/*contains in footer*/
+
+.footer_font_con li a{
+	color: #246ABF;
+}
