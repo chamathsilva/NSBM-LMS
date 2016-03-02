@@ -22,68 +22,68 @@ require '../function/connection.php';
 <body>
 
 <?php
-if($_SERVER["REQUEST_METHOD"] == "POST") {
-    require_once("function/connection.php");
-    $submit = $_POST['submit'];
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
-    $uname = $_POST['uname'];
-    $index = $_POST['index'];
-    $email = $_POST['email'];
-    $remail = $_POST['remail'];
-    $faculty = $_POST['faculty'];
-    $course = $_POST['course'];
-    $batch = $_POST['batch'];
-    $password = $_POST['pass'];
-    $repass = $_POST['repass'];
-    $date = date('Y-m-d');
-}
-if($submit)
-{
-    if($fname && $lname && $uname && $index && $email && $remail && $faculty && $course && $batch && $password && $repass)
-    {
-        if($email == $remail)
-        {
-            if(strlen($password)<6 || strlen($password)>20)
-            {
-                echo "Your Password Should Be 6-10 Characters";
-            }
-            else
-            {
-                if($password == $repass)
-                {
-                    if(user_exist($email)== false)
-                    {
-                        $password=md5($password);
-                        $conn = CreateConnection();
-                        //echo "INSERT INTO student_signup (f_name, l_name, email, password, faculty, course, batch, `index`, `date`, `active`) VALUES ('$fname', '$lname', '$email','$password','$faculty','$course','$batch','$index','$date',0)";
-                        $action=mysqli_query($conn, "INSERT INTO student_signup (f_name, l_name, uname, email, password, faculty, course, batch, `index`, `date`, `active`) VALUES ('$fname', '$lname', '$uname', '$email','$password','$faculty','$course','$batch','$index','$date',0)");
-                        echo "You are Sucessfully Registed, Please Activate Your Account Now";
-                    }
-                    else
-                    {
-                        echo "User Already Exist";
-                    }
-                }
-                else
-                {
-                    echo "Passwords Do Not Match";
-                }
-            }
-        }
-        else
-        {
-            echo "E Mail Do Not Match";
-        }
-    }
-
-    else
-    {
-        echo"Please Fill All The Fields";
-    }
-}
-
-?>
+//if($_SERVER["REQUEST_METHOD"] == "POST") {
+//    require_once("function/connection.php");
+//    $submit = $_POST['submit'];
+//    $fname = $_POST['fname'];
+//    $lname = $_POST['lname'];
+//    $uname = $_POST['uname'];
+//    $index = $_POST['index'];
+//    $email = $_POST['email'];
+//    $remail = $_POST['remail'];
+//    $faculty = $_POST['faculty'];
+//    $course = $_POST['course'];
+//    $batch = $_POST['batch'];
+//    $password = $_POST['pass'];
+//    $repass = $_POST['repass'];
+//    $date = date('Y-m-d');
+//}
+//if($submit)
+//{
+//    if($fname && $lname && $uname && $index && $email && $remail && $faculty && $course && $batch && $password && $repass)
+//    {
+//        if($email == $remail)
+//        {
+//            if(strlen($password)<6 || strlen($password)>20)
+//            {
+//                echo "Your Password Should Be 6-10 Characters";
+//            }
+//            else
+//            {
+//                if($password == $repass)
+//                {
+//                    if(user_exist($email)== false)
+//                    {
+//                        $password=md5($password);
+//                        $conn = CreateConnection();
+//                        //echo "INSERT INTO student_signup (f_name, l_name, email, password, faculty, course, batch, `index`, `date`, `active`) VALUES ('$fname', '$lname', '$email','$password','$faculty','$course','$batch','$index','$date',0)";
+//                        $action=mysqli_query($conn, "INSERT INTO student_signup (f_name, l_name, uname, email, password, faculty, course, batch, `index`, `date`, `active`) VALUES ('$fname', '$lname', '$uname', '$email','$password','$faculty','$course','$batch','$index','$date',0)");
+//                        echo "You are Sucessfully Registed, Please Activate Your Account Now";
+//                    }
+//                    else
+//                    {
+//                        echo "User Already Exist";
+//                    }
+//                }
+//                else
+//                {
+//                    echo "Passwords Do Not Match";
+//                }
+//            }
+//        }
+//        else
+//        {
+//            echo "E Mail Do Not Match";
+//        }
+//    }
+//
+//    else
+//    {
+//        echo"Please Fill All The Fields";
+//    }
+//}
+//
+//?>
 
 <!--Navbar-->
 <?php
@@ -103,14 +103,13 @@ include_once'includes/navbar.php';
         <div class="col-md-6 col-md-offset-3">
             <div class="heading"><h2 align="center"><font color="Black">- Sign Up -</font></h2></div>
             <div class="panel-body">
-                <font color="black">
-                    <form class="form-horizontal"method="post" role="form" action="">
+                    <form class="form-horizontal" method="post" role="form" action="">
                         <label>First Name:</label>
-                        <input type="name" class="form-control" name="fname" placeholder="Enter first name">
+                        <input type="text" class="form-control" name="fname" placeholder="Enter first name">
                         <label>Last Name:</label>
-                        <input type="name" class="form-control" name="lname" placeholder="Enter last name">
+                        <input type="text" class="form-control" name="lname" placeholder="Enter last name">
                         <label>User Name:</label>
-                        <input type="name" class="form-control" name="uname" placeholder="Enter user name">
+                        <input type="text" class="form-control" name="uname" placeholder="Enter user name">
                         <label>Email Address:</label>
                         <input type="email" class="form-control" name="email" placeholder="Enter email">
                         <label>Confirm Email Address:</label>
@@ -120,7 +119,7 @@ include_once'includes/navbar.php';
                         <label>Comfirm Password:</label>
                         <input type="password" class="form-control" name="repass" placeholder="Re enter password">
                         <label>Index Number:</label>
-                        <input type="index" class="form-control" name="index" placeholder="Enter index number">
+                        <input type="text" class="form-control" name="index" placeholder="Enter index number">
                         <label>Faculty:</label>
                         <select class="form-control"  name="faculty">
                             <option disabled selected> Choose The Faculty </option>
@@ -157,15 +156,14 @@ include_once'includes/navbar.php';
                             <option>15.2</option>
                         </select>
                         <br>
-                </font>
-                <button type="submit" name="submit" class="btn btn-primary">Log In</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Log In</button>
 
                 </form>
             </div>
         </div>
     </div>
 </div>
-</div>
+
 
 <!--Footer-->
 <?php

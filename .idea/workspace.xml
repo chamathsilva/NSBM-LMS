@@ -2,76 +2,218 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d1fb00-facf-4b17-b216-873613df76bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Slider/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Slider/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Slider/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Slider/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Slider/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/computer_students.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/d.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/engineering_students.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/graduation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/inaguration.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/industry_visit.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/management_students.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/open_day.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/signup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sport.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/walk.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/wegot_talent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/wesak.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/aaa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/admin_login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/admin_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/admin_panel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/includes/adminbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/batch_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/bbb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/function/connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/course_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/degree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/events_second.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/faculty_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/graduation_ceremony.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/lecturer_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/module_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/includes/navbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/news_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/open_day.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/session_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/signup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/slider_manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/soc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/soe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/som.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/student_manage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/1.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/2.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/250x250.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/3.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/4.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/grey_wash_wall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/icon_watch-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/icon_watch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/BeatPicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/BeatPicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/additional-methods.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/adminHome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/adminstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/adminstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/DateTime/css/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/DateTime/js/bootstrap-datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/bootstrap-notify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/css/bootstrap-select.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/css/bootstrap-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/bootstrap-select.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/css/bootstrap-select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/bootstrap-select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/class/class.db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/class/class.db2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/colorbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/colorthemes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/graph/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/dataTables.jqueryui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ar_AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ar_AR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-bg_BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-bg_BG.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-cro_CRO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-cro_CRO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-cs_CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-cs_CZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-da_DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-da_DK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-de_DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-de_DE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-en_US.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-en_US.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-es_CL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-es_CL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-eu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fa_IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fa_IR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fi_FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fi_FI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fr_FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-fr_FR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-hu_HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-hu_HU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-id_ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-id_ID.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-it_IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-it_IT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ko_KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ko_KR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-nb_NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-nb_NO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-nl_NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-nl_NL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pl_PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pl_PL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pt_BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pt_PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-pt_PT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ro_RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ro_RO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ru_RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ru_RU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sk_SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sk_SK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sl_SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sl_SI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sv_SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-sv_SE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-tr_TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-tr_TR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ua_UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-ua_UA.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-zh_CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/Bselect/js/i18n/defaults-zh_TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/graph/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/graph/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/indexstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/indexstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataformat/jquery-dateFormat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataformat/jquery-dateFormat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/jquery.colorbox-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/jquery.form.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/dataTable/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dataTable/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/lessonplay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/lessonplay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/lessonplaynav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/lessonplaynav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/navbaruser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/navbaruser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/boostrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/pdf/pdfmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/pdf/pdfmake.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/pdf/pdfmake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/percircle.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/percircle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/percircle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/percircle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/slider/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/publicnav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/publicnav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/selecterList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/selikno.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/website/loginAndSignup/signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/slider/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/slider/sly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/slider/sly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/userHome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/CSS/custom/userhome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/custom/userhome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/JS/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/lms/assets/pdf/vfs_fonts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/website/signup.php" afterPath="$PROJECT_DIR$/application/website/signup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NSBM-LMS.iws" />
@@ -124,7 +266,13 @@
         <option value="$PROJECT_DIR$/application/website/soc.php" />
         <option value="$PROJECT_DIR$/application/website/soe.php" />
         <option value="$PROJECT_DIR$/application/website/login.php" />
+        <option value="$PROJECT_DIR$/application/class/class.db2.php" />
+        <option value="$PROJECT_DIR$/application/website/loginAndSignup/signup.php" />
         <option value="$PROJECT_DIR$/application/website/signup.php" />
+        <option value="$PROJECT_DIR$/application/class/test.cpp" />
+        <option value="$PROJECT_DIR$/application/class/class.db.php" />
+        <option value="$PROJECT_DIR$/application/lms/adminHome.php" />
+        <option value="$PROJECT_DIR$/application/lms/userHome.php" />
       </list>
     </option>
   </component>
@@ -134,6 +282,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -183,6 +334,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NSBM-LMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -190,16 +387,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SL/Selikno-Managemet-System" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application" />
-      <recent name="$PROJECT_DIR$/application/website" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/application/lms" />
+      <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/application" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/class" />
+      <recent name="$PROJECT_DIR$/application/website" />
     </key>
   </component>
   <component name="RunManager">
@@ -537,18 +740,21 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="63d1fb00-facf-4b17-b216-873613df76bc" name="Default" comment="" />
       <created>1456661533788</created>
       <option name="number" value="Default" />
       <updated>1456661533788</updated>
-      <workItem from="1456661535295" duration="1479000" />
+      <workItem from="1456661535295" duration="10906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1479000" />
+    <option name="totallyTimeSpent" value="10906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -579,6 +785,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -599,14 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.018181818">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/function/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -687,24 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/website/aaa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2434457">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <marker date="1456661984000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/website/admin_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31835207">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -792,16 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/website/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8689138">
-          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
-          <folding>
-            <marker date="1456662964000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/website/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85018724">
@@ -822,6 +1000,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8876405">
           <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/website/admin_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31835207">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/function/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/class/class.db2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34108528">
+          <caret line="426" column="10" selection-start-line="426" selection-start-column="10" selection-end-line="431" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#1100#0#PHP" expanded="true" />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..." />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="SELECT ${$ch..." />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1456725997000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/website/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4494382">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding>
+            <element signature="e#460#504#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/website/aaa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8426966">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <marker date="1456661984000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/class/class.db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81273407">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/percircle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sb-admin-2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/website/loginAndSignup/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31835207">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1456726671000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lms/userHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2247191">
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+          <folding>
+            <marker date="1456903881000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lms/assets/JS/percircle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lms/adminHome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018726591">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

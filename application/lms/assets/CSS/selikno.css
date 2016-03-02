@@ -1,0 +1,64 @@
+ul,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a, a:hover,a:active,a:focus{
+    text-decoration: inherit;
+}
+
+/*Stock Manage Page*/
+
+.stock-menu li{
+    float:left;
+    padding: 5px;
+}
+
+
+/*Stock Manage Page*/
+
+/*Login*/
+
+.login-body{
+    background: url("../images/grey_wash_wall.png");
+    box-sizing: border-box;
+}
+
+.login-container{
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+}
+
+.login-title{
+    display: block;
+    height: 75px;
+    padding-top: 40px;
+    margin: 0 auto 30px;
+   text-align: center;
+    color: #fff;
+}
+
+.login-title small{
+    color: #ddab2e;
+}
+
+.login-container #userEmail,.login-container #userPassword,.login-container #loginButton {
+    display: block !important;
+    margin: 20px auto !important;
+    width: 100% !important;
+    height: 50px !important;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+}
+
+.login-container legend{
+    text-align: center;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color:#fff;
+    background-color: #782891 !important;
+}
