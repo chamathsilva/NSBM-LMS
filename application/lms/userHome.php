@@ -120,7 +120,7 @@
                     </li>
 
                     <li>
-                        <a href="stockLoadSheet.php" class="admin-pg"><i class="fa fa-table fa-fw"></i> LOAD SHEET</a>
+                        <a href="uploadFileInterface.php" class="admin-pg"><i class="fa fa-table fa-fw"></i>FILE UPLOAD</a>
                     </li>
 
                     <li>
