@@ -46,10 +46,10 @@ include "lmsHeader.php";
 </div>
 <div class="container">
     <div>
-        <div class="col-lg-3 bg-success" style="min-height: 100px">
+        <div class="col-lg-3 bg-success" style="height: 100%">
             <div><p>Menu</p></div>
         </div>
-        <div class="col-lg-6 bg-info" style="min-height: 100px">
+        <div class="col-lg-6 bg-info" style="height:100%; ">
             <div><h4><i class="glyphicon glyphicon-book"></i>Course List</h4></div>
             <div>
                 <ul>
@@ -59,12 +59,15 @@ include "lmsHeader.php";
                 </ul>
             </div>
         </div>
-        <div class="col-lg-3 bg-warning" style="min-height: 100px">
+        <div class="col-lg-3 bg-warning" style="height: 100%">
             <div><p>calender</p></div>
         </div>
     </div>
 
 </div>
 
-</body>
-</html>
+
+<?php
+include "lmsFooter.php";
+
+?>
