@@ -116,7 +116,7 @@
                 <ul class="nav" id="side-menu">
 
                     <li>
-                        <a href="stockBranchSheet.php" class="admin-pg"><i class="fa fa-table fa-fw"></i> STOCK SHEET</a>
+                        <a href="lessons.php" class="admin-pg"><i class="fa fa-table fa-fw"></i>Lessons</a>
                     </li>
 
                     <li>
