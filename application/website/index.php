@@ -1,3 +1,22 @@
+<?php
+
+//FUNCTION HADANNA DB EKEN MEWA GANNA PULUWAN VENNA
+
+$item_per_page = 4; //need to put this configuration file
+require_once('../class/class.db.php');
+$database = new DB();
+
+$get_total_rows = 0;
+
+$lessons = $database->query("SELECT COUNT(*) FROM latest_update");
+
+$get_total_rows = $lessons[0]["COUNT(*)"];
+//break total records into pages
+$total_pages = ceil($get_total_rows/$item_per_page);
+
+
+
+?>
 <html>
 <head>
 
@@ -76,29 +95,50 @@ include_once'includes/navbar.php';
    <hr>
      <p class="h2 header section-title text-center">------------ Latest Updates ------------</p>
    <hr>
-   <div class="container-fluid">
-       <div class="row">
-   <div class="col-md-4">
-   <h4 align="center" class="text-warning">Global Graduate NSBM Open Day 2015</h4>
-   <center><img src="../../assets/images/open_day.jpg" class="Thumbnail" width="100%" height="40%"></center>
-   <p align="justify" font-family="Arial">?Global Graduate ? NSBM Open Day? the annual higher education exhibition organized by the National School of Business Management (NSBM) and its partner universities across the globe will be held on 18th......</p>
-   <button type="button" class="btn btn-primary btn-block"style=" background-color: #4c1a1a; border:none;"><a href="open_day.php" style="text-decoration:none; color:white;">Read More>></a></button>
-</div>
-   <div class="col-md-4">
-   <h4 align="center" class="text-warning">Inauguration Ceremony of Degree Programmes</h4> 
-   <center><img src="../../assets/images/inaguration.jpg" class="Thumbnail" width="100%" height="40%"></center>
-   <p align="justify" font-family="Arial">National School of Business Management (NSBM) held its inauguration of the Degree programmes for the September batch of students for the year 2015 at BMICH main hall on 13th October 2015......</p>
-  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="degree.php" style="text-decoration:none; color:White;">Read More>></a></button>
 
-</div>
-   <div class="col-md-4">
-   <h4 align="center" class="text-warning">Plymouth University - Graduation Ceremony 2015</h4>
-   <center><img src="../../assets/images/graduation.jpg" class="Thumbnail" width="100%" height="40%"></center>
-   <p align="justify" font-family="Arial">The inception Graduation Ceremony of the Plymouth University, United Kingdom for the degree programmes offered in collaboration with National School of Business Management (NSBM) was held on 27 November 2015......</p>
-  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="graduation_ceremony.php" style="text-decoration:none; color:white;">Read More>></a></button>
-</div>
-</div>
-</div>
+
+
+    <div class="container-fluid text-center">
+        <div class="row row-centered">
+            <div class="col-md-12 text2">
+                <div id="results">
+                    <img src="../../assets/images/ajax-loader.gif">  Loading...
+                </div> <!--end of result div -->
+
+                <div class="col-sm-12 text " id="loadmore" style="margin-bottom: 20px;color:#000000"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!--   <div class="container-fluid">-->
+<!---->
+<!--       <div class="row">-->
+<!--           <div class="col-md-4">-->
+<!--               <h4 align="center" class="text-warning">Global Graduate NSBM Open Day 2015</h4>-->
+<!--               <img src="../../assets/images/open_day.jpg" class="Thumbnail" width="100%" height="40%">-->
+<!--               <p align="justify" style="min-height: 100px" font-family="Arial">?Global Graduate ? NSBM Open Day? the annual higher education exhibition organized by the National School of Business Management (NSBM) and its partner universities across the globe will be held on 18th......</p>-->
+<!--               <button type="button" class="btn btn-primary btn-block"style=" background-color: #4c1a1a; border:none;"><a href="open_day.php" style="text-decoration:none; color:white;">Read More>></a></button>-->
+<!--           </div>-->
+<!---->
+<!--   <div class="col-md-4">-->
+<!--   <h4 align="center" class="text-warning">Inauguration Ceremony of Degree Programmes</h4> -->
+<!--   <center><img src="../../assets/images/inaguration.jpg" class="Thumbnail" width="100%" height="40%"></center>-->
+<!--   <p align="justify"style="min-height: 100px" font-family="Arial">National School of Business Management (NSBM) held its inauguration of the Degree programmes for the September batch of students for the year 2015 at BMICH main hall on 13th October 2015......</p>-->
+<!--  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="degree.php" style="text-decoration:none; color:White;">Read More>></a></button>-->
+<!---->
+<!--</div>-->
+<!--   <div class="col-md-4">-->
+<!--   <h4 align="center" class="text-warning">Plymouth University - Graduation Ceremony 2015</h4>-->
+<!--   <center><img src="../../assets/images/graduation.jpg" class="Thumbnail" width="100%" height="40%"></center>-->
+<!--   <p align="justify"style="min-height: 100px" font-family="Arial">The inception Graduation Ceremony of the Plymouth University, United Kingdom for the degree programmes offered in collaboration with National School of Business Management (NSBM) was held on 27 November 2015......</p>-->
+<!--  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="graduation_ceremony.php" style="text-decoration:none; color:white;">Read More>></a></button>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <br>
 
 
@@ -111,7 +151,64 @@ include_once'includes/footer.php';
   <script src="../../assets/js/jquery-1.11.3.min.js"></script>
   <script src="../../assets/js/bootstrap.js"></script>
 
-</body> 
+</body>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        var track_click = 0; //track user click on "load more" button, righ now it is 0 click
+
+        var total_pages = <?php echo $total_pages; ?>;
+        $('#results').load("latestUpdates.php", {'page':track_click}, function() {track_click++;}); //initial data to load
+
+        //show load more button
+        $("#loadmore").html('<div align="center"><button class="load_more" id="load_more_button">load More</button> <div class="animation_image" style="display:none;"><img src="../../assets/images/ajax-loader.gif"> Loading...</div> </div>');
+
+
+        $(".load_more").click(function (e) { //user clicks on button
+
+            $(this).hide(); //hide load more button on click
+            $('.animation_image').show(); //show loading image
+
+            if(track_click <= total_pages) //make sure user clicks are still less than total pages
+            {
+                //post page number and load returned data into result element
+                $.post('latestUpdates.php',{'page': track_click}, function(data) {
+
+                    $(".load_more").show(); //bring back load more button
+
+                    $("#results").append(data); //append data received from server
+
+                    //scroll page to button element
+                    $("html, body").animate({scrollTop: $("#load_more_button").offset().top},1000);
+
+                    //hide loading image
+                    $('.animation_image').hide(); //hide loading image once data is received
+
+                    track_click++; //user click increment on load button
+
+                }).fail(function(xhr, ajaxOptions, thrownError) {
+                    alert(thrownError); //alert any HTTP error
+                    $(".load_more").show(); //bring back load more button
+                    $('.animation_image').hide(); //hide loading image once data is received
+                });
+
+
+                if(track_click >= total_pages-1)
+                {
+                    //reached end of the page yet? disable load button
+                    $(".load_more").attr("disabled", "disabled");
+                    $(".load_more").html("<div class='all_loaded'>No More Content to Load</div>");
+
+                }
+
+            }
+
+        });
+    });
+</script>
 </html>
 
 
