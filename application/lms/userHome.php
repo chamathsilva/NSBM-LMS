@@ -88,7 +88,7 @@
             </button>
             <a class="navbar-brand" href="userHome.php">Selikno Holdings</a>
         </div>
-        <!-- /.navbar-header -->
+        <!-- /.navbar-header -->w
 
         <ul class="nav navbar-top-links navbar-right">
             <!-- /.dropdown -->
@@ -120,7 +120,7 @@
                     </li>
 
                     <li>
-                        <a href="stockLoadSheet.php" class="admin-pg"><i class="fa fa-table fa-fw"></i> LOAD SHEET</a>
+                        <a href="uploadFileInterface.php" class="admin-pg"><i class="fa fa-table fa-fw"></i>FILE UPLOAD</a>
                     </li>
 
                     <li>
