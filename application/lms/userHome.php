@@ -124,7 +124,7 @@
                     </li>
 
                     <li>
-                        <a href="stockSaleSheet.php" class="admin-pg"><i class="fa fa-table fa-fw"></i> SALE SHEET</a>
+                        <a href="latestUpdateInterface.php" class="admin-pg"><i class="fa fa-table fa-fw"></i> LATEST UPDATES</a>
                     </li>
 
                     <li>
