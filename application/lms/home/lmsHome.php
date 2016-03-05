@@ -5,27 +5,24 @@ include "../lmsHeader.php";
 <body>
 
 <div class="container">
-    <div class="col-lg-8 bg-success" style="min-height: 200px"> <h1>Banner</h1> </div>
-    <div class="col-lg-4">
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="User Name">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-default">Login</button>
-        </form>
-    </div>
+    <div class=" banner" style="min-height: 275px"></div>
 </div>
 <div>
 </div>
-<div class="container">
+<div class="container bdcolor">
     <div>
-        <div class="col-lg-3 bg-success" style="height: 100%">
-            <div><p>Main Menu</p></div>
+        <div class="col-lg-3" style="height: 100%;">
+            <div><h1>Main Menu</h1></div>
+            <div style="font-size:18px;color:#fff">
+                <ul>
+                    <li>Student Handbooks</li>
+                    <li>Awards Handbooks</li>
+                    <li>Regulations</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
         </div>
-        <div class="col-lg-6 bg-info" style="height:100%; ">
+        <div class="col-lg-6" style="height:100%; ">
             <div><h4><i class="glyphicon glyphicon-book"></i>COURSE CATEGORIES</h4></div>
             <div>
                 <ul>
@@ -37,7 +34,7 @@ include "../lmsHeader.php";
                 </ul>
             </div>
         </div>
-        <div class="col-lg-3 bg-warning" style="height: 100%">
+        <div class="col-lg-3" style="height: 100%">
             <div><p>CALENDAR</p></div>
         </div>
     </div>
@@ -49,3 +46,8 @@ include "../lmsHeader.php";
 include "../lmsFooter.php";
 
 ?>
+
+<script type="text/javascript">
+        $('#mydates').glDatePicker();
+</script>
+

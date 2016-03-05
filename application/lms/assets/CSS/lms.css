@@ -3,3 +3,12 @@
     background-color: #00246a;
     min-height: 75px;
 }
+
+.banner{
+    background: url("../images/banner_home.png");
+}
+
+.bdcolor{
+    background: #797979;
+
+}

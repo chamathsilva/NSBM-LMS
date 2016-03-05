@@ -5,18 +5,7 @@ include "../lmsHeader.php";
 <body>
 
 <div class="container">
-    <div class="col-lg-8 bg-success" style="min-height: 200px"> <h1>Banner</h1> </div>
-    <div class="col-lg-4">
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="User Name">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-default">Login</button>
-        </form>
-    </div>
+    <div class="col-lg-12 banner" style="min-height: 275px"></div>
 </div>
 <div>
     <nav class="navbar navbar-default">
@@ -43,7 +32,7 @@ include "../lmsHeader.php";
             </div><!-- /.container-fluid -->
         </nav>
 </div>
-<div class="container">
+<div class="container bdcolor">
     <div>
         <div class="col-lg-3 bg-success" style="height: 100%">
             <div><p>Menu</p></div>

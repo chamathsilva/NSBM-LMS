@@ -105,30 +105,30 @@ include_once'includes/navbar.php';
             <div class="panel-body">
                     <form class="form-horizontal" method="post" role="form" action="loginAndSignup/signup.php">
                         <label>First Name:</label>
-                        <input type="text" class="form-control" name="fname" placeholder="Enter first name" required="true">
+                        <input type="text" class="form-control" name="fname" placeholder="Enter first name">
                         <label>Last Name:</label>
-                        <input type="text" class="form-control" name="lname" placeholder="Enter last name" required="true">
+                        <input type="text" class="form-control" name="lname" placeholder="Enter last name">
                         <label>User Name:</label>
-                        <input type="text" class="form-control" name="uname" placeholder="Enter user name" required="true">
+                        <input type="text" class="form-control" name="uname" placeholder="Enter user name">
                         <label>Email Address:</label>
-                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="true">
+                        <input type="email" class="form-control" name="email" placeholder="Enter email">
                         <label>Confirm Email Address:</label>
-                        <input type="email" class="form-control" name="remail" placeholder="Re enter email" required="true">
+                        <input type="email" class="form-control" name="remail" placeholder="Re enter email">
                         <label>Password:</label>
-                        <input type="password" class="form-control" name="pass" placeholder="Enter password" required="true">
+                        <input type="password" class="form-control" name="pass" placeholder="Enter password">
                         <label>Comfirm Password:</label>
-                        <input type="password" class="form-control" name="repass" placeholder="Re enter password" required="true">
+                        <input type="password" class="form-control" name="repass" placeholder="Re enter password">
                         <label>Index Number:</label>
-                        <input type="text" class="form-control" name="index" placeholder="Enter index number" required="true">
+                        <input type="text" class="form-control" name="index" placeholder="Enter index number">
                         <label>Faculty:</label>
-                        <select class="form-control"  name="faculty" required="true">
+                        <select class="form-control"  name="faculty">
                             <option disabled selected> Choose The Faculty </option>
                             <option>Faculty of Computing</option>
                             <option>Faculty of Management</option>
                             <option>Faculty of Engineering</option>
                         </select>
                         <label>Course:</label>
-                        <select class="form-control"  name="course" required="true">
+                        <select class="form-control" required name="course">
                             <option disabled selected>Choose Your Course</option>
                             <option>BSc(Hons)in Human Resource Management</option>
                             <option>BSc(Hons)in Logistics Management</option>
@@ -148,7 +148,7 @@ include_once'includes/navbar.php';
                         </select>
 
                         <label>Batch:</label>
-                        <select class="form-control" name="batch" required="true">
+                        <select class="form-control" name="batch">
                             <option disabled selected>Choose Your Batch</option>
                             <option>14.1</option>
                             <option>14.2</option>

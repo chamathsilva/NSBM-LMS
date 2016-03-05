@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/CSS/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/CSS/lms.css">
     <link rel="stylesheet" href="../assets/dataTable/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="../assets/calander/styles/glDatePicker.default.css">
 
     <script src="../assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="../assets/CSS/boostrap/js/bootstrap.min.js"></script>
@@ -31,6 +32,8 @@
     <script src="../assets/js/additional-methods.min.js"></script>
     <script src="../assets/js/jquery.form.min.js"></script>
     <script src="../assets/js/validation.js"></script>
+    <script src="../assets/calander/glDatePicker.js"></script>
+
 
 
 </head>

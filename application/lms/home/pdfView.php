@@ -8,7 +8,7 @@ $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
 <body>
 
 <div class="container">
-    <div class="col-lg-8 bg-success" style="min-height: 200px"> <h1>Banner</h1> </div>
+    <div class="col-lg-12 banner" style="min-height: 275px"></div>
     <div class="col-lg-4">
         <form>
             <div class="form-group">
@@ -25,7 +25,7 @@ $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
 </div>
 <div class="container">
     <div>
-        <div class="col-lg-12 bg-info" style="height:100%; ">
+        <div class="col-lg-12" style="height:100%; ">
                 <div><h4><i class="glyphicon glyphicon-book"></i> Modules</h4></div>
                 <div>
                     <ul>
