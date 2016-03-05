@@ -3,7 +3,7 @@
 
     <div class="col-lg-12">
         <h1 class="page-header">
-            Publish <small>lessons</small>
+            Update <small>lessons</small>
         </h1>
         <ol class="breadcrumb">
             <li class="active">
@@ -12,39 +12,39 @@
         </ol>
 
         <div class="container" >
-            <h2>Upload Files</h2>
+            <h2>Upload images</h2>
 
 
 
-            <form class="form-horizontal" id="MyUploadForm" method = "POST" action="uploadFiles.php" enctype="multipart/form-data">
+            <form class="form-horizontal" id="MyUploadForm" method = "POST" action="updateFiles.php" enctype="multipart/form-data">
 
                 <div class="form-group" >
-                    <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
+                    <label class="control-label col-sm-2" for="lessonTitle">Heading <span class="required"></span></label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
+                        <input type="text" class="form-control" name="heading" id="heading" placeholder="Enter The Heading" required="true">
                     </div>
                 </div>
 
                 <div class="form-group" >
-                    <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
+                    <label for="field5" class="control-label col-sm-2">Long Description <span class="required"></span></label>
                     <div class="col-sm-9">
-                        <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
+                        <textarea class="form-control" rows="4" name="longdescription" id="longdescription"  placeholder="Enter Long Description" required="true"></textarea>
                     </div>
                 </div>
 
                 <div class="form-group" >
-                    <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
+                    <label class="control-label col-sm-2" for="Year">Short Description <span class="required"></span></label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
+                        <input type="text" class="form-control" name="shortdescription" id="shortdescription" placeholder="Enter The Short Description" required="true">
                     </div>
                 </div>
 
 
 
                 <div class="form-group">
-                    <label class="control-label col-sm-2" for="uploadfiles">upload files <span class="required"></span></label>
+                    <label class="control-label col-sm-2" for="uploadfiles">upload images <span class="required"></span></label>
                     <div class="col-sm-9">
-                        <input type="file" class="form-control" name="FileInput" id="FileInput" required="true">
+                        <input type="file" class="form-control" name="FileInput1" id="FileInput1" required="true">
                     </div>
                 </div>
 
@@ -82,29 +82,29 @@
 
     $("#MyUploadForm").validate({
         rules: {
-            name: {
+            heading: {
                 required: true
 
             },
-            description: {
+            longdescription: {
                 required: true
             },
-            year: {
+            shortdescription: {
                 required: true
             },
-            FileInput: {
+            FileInput1: {
                 required: true,
                 //extension: "mp4",
             }
+
         },
         //if there are errors show messages
         messages:{
 
-            "FileInput":{
-                required: "Please select valid file type",
-                extension:"Invalis extension Please select mp4/jpeg/pptx/pdf file "
+            "FileInput1":{
+                required: "Please select jpeg file",
+                extension:"Invalis extension Please select jpeg file "
             }
-
         },
 
     });
