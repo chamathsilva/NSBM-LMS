@@ -10,12 +10,12 @@ $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
 <body>
 
 <div class="container">
-    <div class="col-lg-12 banner" style="min-height: 275px"></div>
+    <div class="row banner" style="min-height: 275px"></div>
 </div>
 <div>
 </div>
 <div class="container bdcolor">
-    <div>
+    <div class="row">
         <div class="col-lg-12" style="height:100%; ">
                 <div><h4><i class="glyphicon glyphicon-book"></i> Modules</h4></div>
                 <div>

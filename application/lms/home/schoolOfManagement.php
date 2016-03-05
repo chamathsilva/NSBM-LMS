@@ -5,12 +5,12 @@ include "../lmsHeader.php";
 <body>
 
 <div class="container">
-    <div class="     banner" style="min-height: 275px"></div>
+    <div class=" row banner" style="min-height: 275px"></div>
 </div>
 <div>
 </div>
 <div class="container bdcolor">
-    <div>
+    <div class="row">
         <div class="col-lg-12" style="height:100%; ">
             <div class="col-xs-6 col-xs-offset-3 text-center">
                 <div><h4><i class="glyphicon glyphicon-book"></i>Sub-categories</h4></div>
