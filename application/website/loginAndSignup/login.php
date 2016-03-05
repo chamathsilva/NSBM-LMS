@@ -6,6 +6,8 @@ $database = new DB();
 $username = htmlspecialchars($_POST['email']);
 $password = htmlspecialchars($_POST['pass']);
 
+session_start();
+
 $result = $database->query("SELECT * FROM `login` WHERE `Email` = '$username'");
 
 if (count($result) == 1){
@@ -14,7 +16,7 @@ if (count($result) == 1){
         header( 'Location: ../../lms/admin/adminHome.php' );
     }
     else{
-        header( 'Location: ../index.php' );
+        header( 'Location: ../../lms/home/lmsHome.php' );
     }
 
 }
