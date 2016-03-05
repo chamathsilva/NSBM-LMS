@@ -70,6 +70,8 @@
 
 
 
+
+
     </div>
 
 </div>
@@ -165,34 +167,6 @@
         });
 
 
-//        function ajaxSend(params,action,clickRow){
-//            $.ajax({
-//                type: "POST",
-//                url: "../../function/updateDelete.php",
-//                data : params+"&action="+action+,
-//                dataType: "json",
-//                success: function(response){
-//                    switch (action){
-//                        case "removeNewCardAlert":
-//                            if(response.success == 1){
-//                                table1.row(clickRow).remove().draw();
-//                                alert(response.id);
-//                            }else{
-//                                alert("Unexpected error #2, Please try again");
-//                            }
-//                            break;
-//                    }
-//
-//
-//                },
-//                error: function(xhr, status, error){
-//                    console.log(xhr);
-//                    alert("Unexpected error");
-//                    console.log(status,error);
-//                }
-//            })
-//
-//        }
 
 
         function ajaxSend(params,action,clickRow){

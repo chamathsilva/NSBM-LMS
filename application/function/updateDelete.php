@@ -80,4 +80,35 @@ if(isset($_POST) && count($_POST)){
 
     }
 
+
+    ////
+
+    elseif ($action == "deleteAdmin"){
+
+        $id = $_POST['id'];
+
+        $result = $database->query( "DELETE FROM `login` WHERE `Email` = '$id'");
+
+
+
+        if($result)
+            echo json_encode(array("success" => "1","id" => $id));
+        else
+            echo json_encode(array("success" => "0","id" => $id));
+
+    }
+
+    elseif ($action == "deleteStudent"){
+
+        $id = $_POST['id'];
+
+        $result = $database->query( "DELETE FROM `login` WHERE `Email` = '$id'");
+
+        if($result)
+            echo json_encode(array("success" => "1","id" => $id));
+        else
+            echo json_encode(array("success" => "0","id" => $id));
+
+    }
+
 }

@@ -1,33 +1,40 @@
 <div class="admin-page-load">
     <div class="row">
         <h1 class="page-header" style="margin:5px 10px 20px">
-            Add New Course
+            Add New Admin
         </h1>
 
 
         <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../uploadFiles.php" enctype="multipart/form-data">
 
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="lessonTitle">First Name<span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
+                    <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name" required="true">
+                </div>
+            </div>
+
+
+            <div class="form-group" >
+                <label class="control-label col-sm-2" for="Year">Last Name<span class="required"></span></label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name" required="true">
                 </div>
             </div>
 
             <div class="form-group" >
-                <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="Year"> Email Address<span class="required"></span></label>
                 <div class="col-sm-9">
-                    <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
+                    <input type="text" class="form-control" name="emailAdd" id="emailAdd" placeholder="Last Name" required="true">
                 </div>
             </div>
 
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="Year">Password<span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
+                    <input type="text" class="form-control" name="password" id="password" placeholder="Last Name" required="true">
                 </div>
             </div>
-
 
 
             <div class="form-group">
@@ -62,14 +69,17 @@
 
     $("#MyUploadForm").validate({
         rules: {
-            name: {
+            firstname: {
                 required: true
 
             },
-            description: {
+            lastName: {
                 required: true
             },
-            lecturer: {
+            password: {
+                required: true
+            },
+            emailAdd: {
                 required: true
             }
 

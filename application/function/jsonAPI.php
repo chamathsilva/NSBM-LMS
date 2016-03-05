@@ -27,14 +27,14 @@ function getLessonList(){
 
 function getStudentList(){
     global $database;
-    $student = $database->query("SELECT * FROM `course`");
+    $student = $database->query("SELECT * FROM `login` WHERE `Level` = '1' ");
     return json_encode($student);
 }
 
 
 function getAdminList(){
     global $database;
-    $admin = $database->query("SELECT * FROM `course`");
+    $admin = $database->query("SELECT * FROM `login` WHERE `Level` = '0'");
     return json_encode($admin);
 }
 
