@@ -5,29 +5,41 @@
         </h1>
 
 
-        <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../uploadFiles.php" enctype="multipart/form-data">
+        <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../addNewCourse.php" enctype="multipart/form-data">
 
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="lessonTitle">Course Name <span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Course Name">
                 </div>
             </div>
 
+
             <div class="form-group" >
-                <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="year">Year </label>
                 <div class="col-sm-9">
-                    <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
+                    <select class="form-control"  id="year" name="year">
+                        <option value="">Select Year</option>
+                        <option value="Year1">Year 1</option>
+                        <option value="Year2">Year 2</option>
+                        <option value="Year3">Year 3</option>
+                        <option value="Year4">Year 4</option>
+                    </select>
                 </div>
             </div>
 
+
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="cate">Course Categories</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
+                    <select class="form-control"  id="cate" name="cate">
+                        <option value="">Select Category</option>
+                        <option value="SCHOOL OF COMPUTING">SCHOOL OF COMPUTING</option>
+                        <option value="SCHOOL OF MANAGEMENT">SCHOOL OF MANAGEMENT</option>
+                        <option value="SCHOOL OF ENGINEERING">SCHOOL OF ENGINEERING</option>
+                    </select>
                 </div>
             </div>
-
 
 
             <div class="form-group">
@@ -66,10 +78,7 @@
                 required: true
 
             },
-            description: {
-                required: true
-            },
-            lecturer: {
+            year: {
                 required: true
             }
 

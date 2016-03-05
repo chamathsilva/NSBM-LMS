@@ -27,7 +27,10 @@
 
     <script src="../assets/dataTable/js/jquery.dataTables.js"></script>
 
-
+    <script src="../assets/js/jquery.validate.min.js"></script>
+    <script src="../assets/js/additional-methods.min.js"></script>
+    <script src="../assets/js/jquery.form.min.js"></script>
+    <script src="../assets/js/validation.js"></script>
 
 
 </head>

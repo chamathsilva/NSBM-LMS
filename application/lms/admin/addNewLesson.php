@@ -1,3 +1,11 @@
+<?php
+
+require_once("../../class/class.db.php");
+$database=new DB();
+
+?>
+
+
 <div class="admin-page-load">
     <div class="row">
         <h1 class="page-header" style="margin:5px 10px 20px">
@@ -8,32 +16,46 @@
         <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../uploadFiles.php" enctype="multipart/form-data">
 
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="lessonTitle">Lesson Title</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" >
                 </div>
             </div>
 
             <div class="form-group" >
-                <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
+                <label class="control-label col-sm-2">Description</label>
                 <div class="col-sm-9">
-                    <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
+                    <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" ></textarea>
                 </div>
             </div>
 
             <div class="form-group" >
-                <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
+                <label class="control-label col-sm-2" for="year">Course </label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
+                    <select class="form-control"  id="course" name="course">
+                        <option value="">Select Course</option>
+
+                        <?php
+                        $course = $database->query("SELECT * FROM course");
+
+
+                        foreach ($course as $row) {
+                            $course                 = $row['title'];
+                            $courseID               = $row['courseID'];
+                            echo '<option value='."$courseID".'>'.$course.'</option>';
+                        }
+
+                        ?>
+
+                    </select>
                 </div>
             </div>
-
 
 
             <div class="form-group">
                 <label class="control-label col-sm-2" for="uploadfiles">upload files <span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="file" class="form-control" name="FileInput" id="FileInput" required="true">
+                    <input type="file" class="form-control" name="FileInput" id="FileInput" >
                 </div>
             </div>
 
@@ -77,50 +99,14 @@
             description: {
                 required: true
             },
-            lecturer: {
+            FileInput: {
                 required: true
             },
-            FileInput1: {
-                required: true,
-                //extension: "mp4",
-            },
-            'files[]': {
-                required: true,
-                //extension: "png",
-            },
-
-            FileInput3: {
-                required: true,
-                //extension: "txt",
-            },
-            "subject[]":{
-                //required: true,
-                //minlength:1,
-            },
-            "users[]":{
-                //required: true,
-                //minlength:1,
+            course: {
+                required: true
             }
 
-        },
-        //if there are errors show messages
-        messages:{
-            "subject[]":"Please select at least one checkbox",
-            "FileInput1":{
-                required: "Please select mp4 file",
-                extension:"Invalis extension Please select mp4 file "
-            },
-            "files[]":{
-                required: "Please select jpeg/png files"
-                // extension:"Invalis extension Please select mp4 file "
-            },
-            "FileInput3":{
-                required: "Please select txt file"
-                // extension:"Invalis extension Please select mp4 file "
-            }
-
-        },
-
+        }
     });
 
     var options = {

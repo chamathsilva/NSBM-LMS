@@ -48,14 +48,16 @@ if (move_uploaded_file($_FILES['FileInput1']['tmp_name'], $UploadDirectory . $Fi
     die('error uploading File!');
 }
 
-echo "Uploaded Successfuly";
-
 $heading = filter_var($_POST["heading"], FILTER_SANITIZE_STRING);
 $longdescription = filter_var($_POST["longdescription"], FILTER_SANITIZE_STRING);
 $shortdescription = filter_var($_POST["shortdescription"], FILTER_SANITIZE_STRING);
 
 
 $sql=$database->query("INSERT INTO latest_update (`heading`,`short_description`, `long_description`, `image_src`) VALUES ('$heading','$shortdescription','$longdescription','$File_Name')");
+
+
+echo "Uploaded Successful";
+
 
 
 
