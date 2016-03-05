@@ -2,7 +2,7 @@
 
 define( 'servername', 'localhost' );    // set database host
 define( 'username', 'root' );           // set database user
-define( 'password', 'root' );           // set database password
+define( 'password', '' );           // set database password
 define( 'database', 'NSBM_LMS' );       // set database name
 
 class DB{
