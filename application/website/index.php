@@ -110,35 +110,6 @@ include_once'includes/navbar.php';
         </div>
     </div>
 
-
-
-
-
-<!--   <div class="container-fluid">-->
-<!---->
-<!--       <div class="row">-->
-<!--           <div class="col-md-4">-->
-<!--               <h4 align="center" class="text-warning">Global Graduate NSBM Open Day 2015</h4>-->
-<!--               <img src="../../assets/images/open_day.jpg" class="Thumbnail" width="100%" height="40%">-->
-<!--               <p align="justify" style="min-height: 100px" font-family="Arial">?Global Graduate ? NSBM Open Day? the annual higher education exhibition organized by the National School of Business Management (NSBM) and its partner universities across the globe will be held on 18th......</p>-->
-<!--               <button type="button" class="btn btn-primary btn-block"style=" background-color: #4c1a1a; border:none;"><a href="open_day.php" style="text-decoration:none; color:white;">Read More>></a></button>-->
-<!--           </div>-->
-<!---->
-<!--   <div class="col-md-4">-->
-<!--   <h4 align="center" class="text-warning">Inauguration Ceremony of Degree Programmes</h4> -->
-<!--   <center><img src="../../assets/images/inaguration.jpg" class="Thumbnail" width="100%" height="40%"></center>-->
-<!--   <p align="justify"style="min-height: 100px" font-family="Arial">National School of Business Management (NSBM) held its inauguration of the Degree programmes for the September batch of students for the year 2015 at BMICH main hall on 13th October 2015......</p>-->
-<!--  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="degree.php" style="text-decoration:none; color:White;">Read More>></a></button>-->
-<!---->
-<!--</div>-->
-<!--   <div class="col-md-4">-->
-<!--   <h4 align="center" class="text-warning">Plymouth University - Graduation Ceremony 2015</h4>-->
-<!--   <center><img src="../../assets/images/graduation.jpg" class="Thumbnail" width="100%" height="40%"></center>-->
-<!--   <p align="justify"style="min-height: 100px" font-family="Arial">The inception Graduation Ceremony of the Plymouth University, United Kingdom for the degree programmes offered in collaboration with National School of Business Management (NSBM) was held on 27 November 2015......</p>-->
-<!--  <button type="button" class="btn btn-primary btn-block" style=" background-color: #4c1a1a; border:none;"><a href="graduation_ceremony.php" style="text-decoration:none; color:white;">Read More>></a></button>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
 <br>
 
 
@@ -152,6 +123,7 @@ include_once'includes/footer.php';
   <script src="../../assets/js/bootstrap.js"></script>
 
 </body>
+
 
 
 

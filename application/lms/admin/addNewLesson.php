@@ -1,81 +1,69 @@
-<div class="row"> <!--do not remove this -->
-
-
-    <div class="col-lg-12">
-        <h1 class="page-header">
-            Publish <small>lessons</small>
+<div class="admin-page-load">
+    <div class="row">
+        <h1 class="page-header" style="margin:5px 10px 20px">
+            Add New Lesson
         </h1>
-        <ol class="breadcrumb">
-            <li class="active">
-                <i class="fa fa-dashboard"></i> Publish lessons
-            </li>
-        </ol>
-
-        <div class="container" >
-            <h2>Upload Files</h2>
 
 
+        <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../uploadFiles.php" enctype="multipart/form-data">
 
-            <form class="form-horizontal" id="MyUploadForm" method = "POST" action="uploadFiles.php" enctype="multipart/form-data">
-
-                <div class="form-group" >
-                    <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
-                    </div>
-                </div>
-
-                <div class="form-group" >
-                    <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
-                    <div class="col-sm-9">
-                        <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
-                    </div>
-                </div>
-
-                <div class="form-group" >
-                    <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
-                    </div>
-                </div>
-
-
-
-                <div class="form-group">
-                    <label class="control-label col-sm-2" for="uploadfiles">upload files <span class="required"></span></label>
-                    <div class="col-sm-9">
-                        <input type="file" class="form-control" name="FileInput" id="FileInput" required="true">
-                    </div>
-                </div>
-
-
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-9">
-                        <button type="button" onclick="upload_form()" id = "submit_btn" name="submit_btn" class="btn btn-info" value="Submit">Submit</button>
-                    </div>
-                </div>
-
-
-            </form>
-
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <div id="progressbox" ><div id="progressbar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%; max-height:15px; "><div id="statustxt">0%</div ></div></div>
+            <div class="form-group" >
+                <label class="control-label col-sm-2" for="lessonTitle">Lesson Title <span class="required"></span></label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Lesson Title" required="true">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <div id="output"></div>
+            <div class="form-group" >
+                <label for="field5" class="control-label col-sm-2">Description <span class="required"></span></label>
+                <div class="col-sm-9">
+                    <textarea class="form-control" rows="4" name="description" id="description"  placeholder="Enter Description" required="true"></textarea>
                 </div>
+            </div>
+
+            <div class="form-group" >
+                <label class="control-label col-sm-2" for="Year">Year <span class="required"></span></label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" name="year" id="year" placeholder="Enter The Year" required="true">
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="uploadfiles">upload files <span class="required"></span></label>
+                <div class="col-sm-9">
+                    <input type="file" class="form-control" name="FileInput" id="FileInput" required="true">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-9">
+                    <button type="button" onclick="upload_form()" id = "submit_btn" name="submit_btn" class="btn btn-info" value="Submit">Submit</button>
+                </div>
+            </div>
+
+
+        </form>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div id="progressbox" ><div id="progressbar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%; max-height:15px; "><div id="statustxt">0%</div ></div></div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div id="output"></div>
+            </div>
+        </div>
+
+
+
     </div>
 
 
-</div><!--do not remove -->
-
-
+</div>
 
 <script type="text/javascript">
     //check which field is required and validate them
@@ -187,13 +175,6 @@
         }
     }
 
-    //function to format bites bit.ly/19yoIPO
-    function bytesToSize(bytes) {
-        var sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-        if (bytes == 0) return '0 Bytes';
-        var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
-        return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
-    }
 
 
 
