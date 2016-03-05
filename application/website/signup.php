@@ -103,7 +103,7 @@ include_once'includes/navbar.php';
         <div class="col-md-6 col-md-offset-3">
             <div class="heading"><h2 align="center"><font color="Black">- Sign Up -</font></h2></div>
             <div class="panel-body">
-                    <form class="form-horizontal" method="post" role="form" action="">
+                    <form class="form-horizontal" method="post" role="form" action="loginAndSignup/signup.php">
                         <label>First Name:</label>
                         <input type="text" class="form-control" name="fname" placeholder="Enter first name">
                         <label>Last Name:</label>
