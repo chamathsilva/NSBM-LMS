@@ -5,7 +5,7 @@
         </h1>
 
 
-        <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../uploadFiles.php" enctype="multipart/form-data">
+        <form class="form-horizontal" id="MyUploadForm" method = "POST" action="../addNewAdmin.php" enctype="multipart/form-data">
 
             <div class="form-group" >
                 <label class="control-label col-sm-2" for="lessonTitle">First Name<span class="required"></span></label>
@@ -25,14 +25,14 @@
             <div class="form-group" >
                 <label class="control-label col-sm-2" for="Year"> Email Address<span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="emailAdd" id="emailAdd" placeholder="Last Name" required="true">
+                    <input type="email" class="form-control" name="emailAdd" id="emailAdd" placeholder="Last Name" required="true">
                 </div>
             </div>
 
             <div class="form-group" >
                 <label class="control-label col-sm-2" for="Year">Password<span class="required"></span></label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" name="password" id="password" placeholder="Last Name" required="true">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Last Name" required="true">
                 </div>
             </div>
 

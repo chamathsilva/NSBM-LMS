@@ -36,11 +36,11 @@ include_once'includes/navbar.php';
 <div class="col-md-6 col-md-offset-3">
 <div class="heading"><h2 align="center"><font color="black">- Log In -</font></h2></div>
 <div class="panel-body">
-  <form class="form-horizontal"method="post" role="form" action="loginAndSignup/login.php">
+  <form class="form-horizontal"method="post" role="form" action="loginAndSignup/login.php" >
    <label>Email:</label>
-  <input type="email" class="form-control" name="email" placeholder="Enter email">
+  <input type="email" class="form-control" name="email" placeholder="Enter email" required >
    <label>Password:</label>
-  <input type="password" class="form-control" name="pass" placeholder="Enter password">
+  <input type="password" class="form-control" name="pass" placeholder="Enter password" required>
 
     <label>
   <input type="checkbox">Remember Me

@@ -157,14 +157,7 @@
         updateModel.on("click","." + submitModel,function(){
 
             var formData = updaeform.serialize();
-            //alert(formData);
             ajaxSend(formData,"updateCourse");
-//            var validationPass = updaeform.valid();
-//            if (validationPass){
-//                var formData = updaeform.serialize();
-//                //alert(formData);
-//                ajaxSend(formData,"update");
-//            }
 
         });
 

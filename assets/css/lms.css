@@ -1,0 +1,14 @@
+/*---footer----*/
+.lms-footer{
+    background-color: rgba(49, 49, 49, 0.86);
+    min-height: 75px;
+}
+
+.banner{
+    background: url("../images/banner_home.png");
+}
+
+.bdcolor{
+    background: #797979;
+
+}

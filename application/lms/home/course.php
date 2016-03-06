@@ -39,7 +39,7 @@ $id= filter_var($_GET["id"], FILTER_SANITIZE_STRING);
                                     echo '<a href="pdfView.php?path='.$src_path.'"  class="list-group-item" >'.$lessonTitle.'</a>';
                                 }
                                 elseif($extension =='pptx' ||$extension =='ppt' ){
-                                    echo '<a download="'.$src_path.'" href="'.$src_path.'" title="ImageName">'.$lessonTitle.'</a>';
+                                    echo '<a  class="list-group-item download="'.$src_path.'" href="'.$src_path.'" title="ImageName"> '.$lessonTitle.'</a>';
                                 }
 
                                 elseif($extension = 'mp4'){

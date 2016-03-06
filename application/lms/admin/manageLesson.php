@@ -155,13 +155,6 @@
             var formData = updaeform.serialize();
             //alert(formData);
             ajaxSend(formData,"updateLesson");
-//            var validationPass = updaeform.valid();
-//            if (validationPass){
-//                var formData = updaeform.serialize();
-//                //alert(formData);
-//                ajaxSend(formData,"update");
-//            }
-
         });
 
 
