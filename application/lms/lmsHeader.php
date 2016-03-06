@@ -33,6 +33,8 @@
     <script src="../../../assets/js/jquery.form.min.js"></script>
     <script src="../../../assets/js/validation.js"></script>
     <script src="../../../assets/calander/glDatePicker.js"></script>
+    <script src="../../../assets/js/highcharts.js"></script>
+    <script src="../../../assets/js/highcharts-more.js"></script>
 
 
 

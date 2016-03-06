@@ -39,7 +39,7 @@ $result = $database->query("SELECT * FROM `login` WHERE `Email` = '$username'");
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <div class="heading"><h2 align="center"><font color="Black">- Sign Up -</font></h2></div>
+            <div class="heading"><h2 align="center"><font color="Black">- Change info -</font></h2></div>
             <div class="panel-body">
                 <form class="form-horizontal" method="post" role="form" action="loginAndSignup/edit.php">
                     <label>First Name:</label>
@@ -51,7 +51,7 @@ $result = $database->query("SELECT * FROM `login` WHERE `Email` = '$username'");
                     <label>Email Address:</label>
                     <input type="email" class="form-control" name="email" value = "<?php echo $result[0]['Email'] ?>" placeholder="Enter email" required="true">
                     <label>Password:</label>
-                    <input type="password" class="form-control" name="pass" value = "<?php echo $result[0]['Password'] ?>" placeholder="Enter password" required="true">
+                    <input type="password" class="form-control" name="pass" value = "" placeholder="Enter password" required="true">
                     <br>
                     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
 

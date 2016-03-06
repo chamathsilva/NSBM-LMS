@@ -1,6 +1,5 @@
 <?php
 include "../lmsHeader.php";
-
 ?>
 <body>
 
@@ -16,14 +15,13 @@ include "../lmsHeader.php";
             <div style="font-size:18px;color:#fff">
 
                 <div class="list-group">
-<!--                    <a href="schoolOfComputing.php"  class="list-group-item" >Student Handbooks</a>-->
-<!--                    <a href="schoolOfManagement.php" class="list-group-item">Awards Handbooks</a>-->
-<!--                    <a href="schoolOfEng.php" class="list-group-item">Regulations</a>-->
                     <a href="abountUs.php" class="list-group-item">About Us</a>
                     <a href="contactus.php" class="list-group-item">Contacts Us</a>
                 </div>
-
             </div>
+            <hr>
+
+
         </div>
         <div class="col-lg-6 text-center" style="height:100%;border: outset ">
             <div><h4><i class="glyphicon glyphicon-book"></i>COURSE CATEGORIES</h4></div>
@@ -38,11 +36,6 @@ include "../lmsHeader.php";
             </div>
         </div>
         <div class="col-lg-3 text-center" style="height: 100%;border: outset">
-            <div><h1>Calender</h1></div>
-
-
-
-
         </div>
     </div>
 
@@ -53,4 +46,5 @@ include "../lmsHeader.php";
 include "../lmsFooter.php";
 
 ?>
+
 

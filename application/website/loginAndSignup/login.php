@@ -21,5 +21,5 @@ if (count($result) == 1){
 
 }
 else{
-    header( 'Location: ../login.php' );
+    header( 'Location: ../login.php?fail=1' );
 }

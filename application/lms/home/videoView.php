@@ -5,6 +5,11 @@ $database=new DB();
 
 
 $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
+
+session_start();
+if(!isset($_SESSION['username'])) {
+    header('Location: ../../website/login.php');
+}
 ?>
 
 <body>
@@ -17,7 +22,7 @@ $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
 <div class="container bdcolor">
     <div class="row">
         <div class="col-lg-12" style="height:100%; ">
-                <div><h4><i class="glyphicon glyphicon-book"></i> Modules</h4></div>
+
                 <div>
 
                         <div class="embed-responsive embed-responsive-16by9">

@@ -3,6 +3,10 @@ include "../lmsHeader.php";
 require_once("../../class/class.db.php");
 $database=new DB();
 $src_path= filter_var($_GET["path"], FILTER_SANITIZE_STRING);
+session_start();
+if(!isset($_SESSION['username'])) {
+    header('Location: ../../website/login.php');
+}
 ?>
 
 <body>

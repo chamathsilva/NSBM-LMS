@@ -1,7 +1,7 @@
 <?php
 require_once('../class/class.db.php');
 $database = new DB();
-$item_per_page = 4;
+$item_per_page = 3;
 
 //sanitize post value
 $page_number = filter_var($_POST["page"], FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);

@@ -35,6 +35,18 @@ include_once'includes/navbar.php';
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
 <div class="heading"><h2 align="center"><font color="black">- Log In -</font></h2></div>
+    <?php
+
+    if (isset($_GET["fail"])){
+        echo'<div class="heading"><h3 align="center"><font color="red">User Name Or Password incorrect</font></h3></div>';
+    }
+
+    if(isset($_GET["edit"])){
+        echo'<div class="heading"><h3 align="center"><font color="red">Update Complete Please Login </font></h3></div>';
+    }
+    ?>
+
+
 <div class="panel-body">
   <form class="form-horizontal"method="post" role="form" action="loginAndSignup/login.php" >
    <label>Email:</label>

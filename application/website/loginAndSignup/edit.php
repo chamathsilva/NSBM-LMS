@@ -12,5 +12,9 @@ $password = htmlspecialchars($_POST['pass']);
 
 $result = $database->query("UPDATE `login` SET `F_NAME` = '$f_name', `L_Name` = '$l_name', `U_Name` = '$u_name', `Email` = '$email', `Password` = '$password' WHERE `Email` = '$email'");
 
-header( 'Location: ../editUser.php' );
+
+session_start();
+session_destroy();
+
+header( 'Location: ../login.php?edit=1' );
 

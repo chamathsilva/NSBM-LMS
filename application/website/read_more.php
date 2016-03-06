@@ -7,9 +7,9 @@ $result = $result[0];
 
 $id                 = $result['updateID'];
 $heading            = $result['heading'];
-$long_description  = $result['long_description'];
+$long_description   = $result['long_description'];
 $image_src          = $result['image_src'];
-$src_path           = '../../assets/images/'.$image_src;
+$src_path           = '../../data/updates/'.$image_src;
 
 ?>
 

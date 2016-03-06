@@ -1,4 +1,8 @@
 <?php
+session_start();
+if(!isset($_SESSION['username'])) {
+    header('Location: ../../website/login.php');
+}
 include "../lmsHeader.php";
 
 ?>
@@ -26,6 +30,18 @@ include "../lmsHeader.php";
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="adminHomeManage.php">Manage</a></li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../../website/loginAndSignup/logout.php">Log Out</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="changeinfo.php" class="list-group-item admin-pg">Change info</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
